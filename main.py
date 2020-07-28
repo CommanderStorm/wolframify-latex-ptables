@@ -4,13 +4,14 @@ import pyperclip
 
 
 def convert(latexstring: str):
-    matrixregex = re.compile(r"(\\begin\{pmatrix\}.*?\\end\{pmatrix\})")
+    matrix_regex = re.compile(r"(\\begin{pmatrix}.*?\\end{pmatrix})")
     # clean input
     latexstring = latexstring.strip(".").strip(" ")
+    latexstring = re.sub(r"(\\+ *\\+end{pmatrix})", r"\\end{pmatrix}", latexstring)  # remove useless \\ \end{ptable}
     results = []
-    for expression in matrixregex.split(latexstring):
+    for expression in matrix_regex.split(latexstring):
         result = expression
-        if matrixregex.match(expression):
+        if matrix_regex.match(expression):
             result = result.replace("\\begin{pmatrix}", "{(")
             result = result.replace("\\end{pmatrix}", ")}")
             result = result.replace("&", ",")

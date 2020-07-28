@@ -1,14 +1,30 @@
 [
-    [
-        "A = \\begin{pmatrix}1&2\\\\3&4\\\\5&6\\end{pmatrix}, \\quad B = \\begin{pmatrix}1&2&3\\\\4&5&6\\\\7&8&9\\end{pmatrix}.",
-        "A = \n{(1,2),(3,4),(5,6)}\n, \\quad B = \n{(1,2,3),(4,5,6),(7,8,9)}"
-    ],
-    [
-        "A = \\begin{pmatrix}6&0&0&0&0&0&0\\\\5&7&0&0&0&0&0\\\\1&2&3&4&0&0&0\\\\1&3&7&8&9&0&0\\\\0&0&0&0&0&0&0\\\\0&0&0&0&0&0&0\\end{pmatrix}",
-        "A = \n{(6,0,0,0,0,0,0),(5,7,0,0,0,0,0),(1,2,3,4,0,0,0),(1,3,7,8,9,0,0),(0,0,0,0,0,0,0),(0,0,0,0,0,0,0)}"
-    ],
-    [
-        "v_1 = \\begin{pmatrix}0\\\\1\\\\-1\\end{pmatrix}, \\quad v_2 = \\begin{pmatrix}2\\\\-1\\\\3\\end{pmatrix}, \\quad v_3 = \\begin{pmatrix}a\\\\-1\\\\7\\end{pmatrix} .",
-        "v_1 = \n{(0),(1),(-1)}\n, \\quad v_2 = \n{(2),(-1),(3)}\n, \\quad v_3 = \n{(a),(-1),(7)}"
-    ]
+  [
+    "A = \\begin{pmatrix}1&2\\\\3&4\\\\5&6\\end{pmatrix}, \\quad B = \\begin{pmatrix}1&2&3\\\\4&5&6\\\\7&8&9\\end{pmatrix}.",
+    "A = \n{(1,2),(3,4),(5,6)}\n, \\quad B = \n{(1,2,3),(4,5,6),(7,8,9)}"
+  ],
+  [
+    "A = \\begin{pmatrix}6&0&0&0&0&0&0\\\\5&7&0&0&0&0&0\\\\1&2&3&4&0&0&0\\\\1&3&7&8&9&0&0\\\\0&0&0&0&0&0&0\\\\0&0&0&0&0&0&0\\end{pmatrix}",
+    "A = \n{(6,0,0,0,0,0,0),(5,7,0,0,0,0,0),(1,2,3,4,0,0,0),(1,3,7,8,9,0,0),(0,0,0,0,0,0,0),(0,0,0,0,0,0,0)}"
+  ],
+  [
+    "v_1 = \\begin{pmatrix}0\\\\1\\\\-1\\end{pmatrix}, \\quad v_2 = \\begin{pmatrix}2\\\\-1\\\\3\\end{pmatrix}, \\quad v_3 = \\begin{pmatrix}a\\\\-1\\\\7\\end{pmatrix} .",
+    "v_1 = \n{(0),(1),(-1)}\n, \\quad v_2 = \n{(2),(-1),(3)}\n, \\quad v_3 = \n{(a),(-1),(7)}"
+  ],
+  [
+    "u = \\begin{pmatrix}1\\\\1\\\\0\\end{pmatrix}, \\quad v = \\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix}, \\quad w_1 = \\begin{pmatrix}1\\\\0\\\\-1\\end{pmatrix}, \\quad w_2 = \\begin{pmatrix}0\\\\0\\\\2\\end{pmatrix}.",
+    "u = \n{(1),(1),(0)}\n, \\quad v = \n{(1),(1),(1)}\n, \\quad w_1 = \n{(1),(0),(-1)}\n, \\quad w_2 = \n{(0),(0),(2)}"
+  ],
+  [
+    "U = \\{ \\begin{pmatrix}x\\\\y\\end{pmatrix} \\mid x^2 + y^2 = 0 \\} .",
+    "U = \\{ \n{(x),(y)}\n \\mid x^2 + y^2 = 0 \\}"
+  ],
+  [
+    "U = \\{ \\begin{pmatrix}a+b+c\\\\2a+2b+2c\\\\3a+3b+3c\\\\-a-b-c\\\\end{pmatrix} \\in \\mathbb{R}^4 \\mid a,b,c \\in \\mathbb{R} \\}",
+    "U = \\{ \n{(a+b+c),(2a+2b+2c),(3a+3b+3c),(-a-b-c)}\n \\in \\mathbb{R}^4 \\mid a,b,c \\in \\mathbb{R} \\}"
+  ],
+  [
+    "E_{11} = \\begin{pmatrix}1&0\\\\0&0\\\\end{pmatrix}, E_{12} = \\begin{pmatrix}0&1\\\\0&0\\end{pmatrix}, E_{21} = \\begin{pmatrix}0&0\\\\1&0\\end{pmatrix}, E_{22} = \\begin{pmatrix}0&0\\\\0&1\\end{pmatrix} .",
+    "E_{11} = \n{(1,0),(0,0)}\n, E_{12} = \n{(0,1),(0,0)}\n, E_{21} = \n{(0,0),(1,0)}\n, E_{22} = \n{(0,0),(0,1)}"
+  ]
 ]
