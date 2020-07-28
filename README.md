@@ -1,5 +1,5 @@
 # wolframify-latex-ptables
-
+![Python package](https://github.com/CommanderStorm/wolframify-latex-ptables/workflows/Python%20package/badge.svg?branch=master)
 ## Getting started
 
 - install python+pip
