@@ -1,5 +1,5 @@
 # wolframify-latex-ptables
-![Tests](https://github.com/CommanderStorm/wolframify-latex-ptables/workflows/Python%20package/badge.svg?branch=master)
+![Python Tests](https://github.com/CommanderStorm/wolframify-latex-ptables/workflows/Run%20Python%20Tests/badge.svg?branch=master)
 ## Getting started
 
 - install python 3.8
