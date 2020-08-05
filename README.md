@@ -1,11 +1,13 @@
 # wolframify-latex-ptables
-
+![Python Tests](https://github.com/CommanderStorm/wolframify-latex-ptables/workflows/Run%20Python%20Tests/badge.svg?branch=master)
 ## Getting started
 
-- install python+pip
+- install python 3.8
+- install pip3 using ```python3 -m pip3 install --upgrade pip3```
 - install the pyperclip package by running ```pip3 install pyperclip``` or ```pip3 install -r requirements.txt```
-- run the main class by using the ```python3 main.py``` command/ running the ```main.py``` Script
-- enjoy
+- run the main class by using the ```python3 main.py``` command or by running the ```main.py``` Script
+- ???
+- profit
 
 ## Usage:
 - copy paste the latex code you want to wolfram-alpha-iphy in the input
