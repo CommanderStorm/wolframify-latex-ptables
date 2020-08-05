@@ -34,6 +34,6 @@ if __name__ == '__main__':
             print("Thank you for choosing Wolfram Conversion Services")
             break
         tmp = convert(inp)
-        if len(tmp.replace("\n", "")) < 0:
+        if len(tmp.replace("\n", "")) > 0:
             pyperclip.copy(tmp.replace("\n", ""))
         print(tmp)
